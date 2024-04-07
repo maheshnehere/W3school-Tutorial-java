@@ -50,6 +50,28 @@ public class Basics {
         System.out.println(number);
         System.out.println(number2);
 
+        //type casting
+
+        String typecastingwidening = "byte - short - char - int - float - double";
+
+        String typecastingnarrowing = "double- float - int - char - short - byte";
+
+        //for type casting first declare second variable and then initialize the value syntax issue so.
+
+       /* not good practise
+
+        int weight = 10;
+        float weight1 = weight;
+
+        */
+
+        int weight = 10;
+
+        float weight1;  //good practice
+
+        weight1 = weight;
+
+
 
 
     }
