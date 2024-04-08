@@ -67,22 +67,69 @@ public class Operator {
         int c = 11;
         int d = 12;
 
-        if (c>=d)
-        {
+        if (c >= d) {
             System.out.println("positive");
-        }
-        else
-        {
+        } else {
             System.out.println("negative");
         }
-        if (c<=d)
-        {
+        if (c <= d) {
             System.out.println("confirmed");
+        } else {
+            System.out.println("rejected");
+        }
+
+        //else if condition
+
+        int age = 1;
+
+        if (age == 18) {
+            System.out.println("Teenager");
+        } else if (age > 18) {
+            System.out.println("adult");
+        } else if (age < 18) {
+            System.out.println("child");
+        }
+
+        System.out.println(age > 2);
+
+        // logical operator AND
+        int u = 10;
+        int s = 20;
+        if (u > 9 && u < 11)
+        {
+            System.out.println("true");
         }
         else
         {
-            System.out.println("rejected");
+            System.out.println("false");
         }
+
+        System.out.println(u > 9 && u < 11); //use this technique to check condition output.
+
+        //logical OR operator
+        if (u > 9 || u < 11){
+
+            System.out.println("true");
+        }
+        else
+        {
+            System.out.println("false");
+        }
+
+        //logical not operator
+
+//        int u = 10;
+//        int s = 20;
+        if (!(u > 11 || u < 11)){
+
+            System.out.println("true");
+        }
+        else
+        {
+            System.out.println("false");
+        }
+
+
 
 
     }
