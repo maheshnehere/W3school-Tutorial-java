@@ -1,3 +1,5 @@
+package com.practise;
+
 public class Operator {
     public static void main(String[] args) {
 
