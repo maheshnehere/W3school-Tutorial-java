@@ -71,6 +71,39 @@ public class Basics {
 
         weight1 = weight;
 
+        //narrow typecasting
+
+        double sum =30.34;
+
+        int sum2;
+
+        sum2 = (int)sum;
+
+        System.out.println(sum2);
+
+        //type casting java problems
+
+        double sum3 = 15.4;
+
+        float sum4 = (float) sum3;
+
+        long sum5 = (long) sum3;
+
+        int sum6 = (int) sum3;
+
+        char sum7 = (char) sum3;
+
+        short sum8 = (short) sum3;
+
+        byte sum9 = (byte) sum3;
+
+        System.out.println(sum4);
+        System.out.println(sum5);
+        System.out.println(sum6);
+        System.out.println(sum7);
+        System.out.println(sum8);
+        System.out.println(sum9);
+
 
 
 
