@@ -42,8 +42,47 @@ public class Operator {
         x <<= 2;
         System.out.println(x);
 
+        //comparison operator
 
+        int a = 1;
+        int b = 2;
 
+        if (a == b) {
+            System.out.println("true");
+        } else {
+            System.out.println("false");
+        }
+
+        if (a > b) {
+            System.out.println("yes");
+        } else {
+            System.out.println("no");
+        }
+        if (a < b) {
+            System.out.println("right");
+        } else {
+            System.out.println("wrong");
+        }
+
+        int c = 11;
+        int d = 12;
+
+        if (c>=d)
+        {
+            System.out.println("positive");
+        }
+        else
+        {
+            System.out.println("negative");
+        }
+        if (c<=d)
+        {
+            System.out.println("confirmed");
+        }
+        else
+        {
+            System.out.println("rejected");
+        }
 
 
     }
